@@ -4,7 +4,7 @@ Created on Sat Aug 18 15:46:25 2018
 
 @author: francinei
 """
-#%%
+
 import praw as pw
 
 def reddit_list(subreddit_name, min_ups = 5000, max_limit = 100):
@@ -30,6 +30,3 @@ def reddit_list(subreddit_name, min_ups = 5000, max_limit = 100):
             top_reddits = top_reddits + s_A + s_B
     
     return top_reddits
-    
-    
-#%%
