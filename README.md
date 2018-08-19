@@ -9,7 +9,7 @@
 
 A solução do desafio 1 está implementada no módulo wrapJustify.py.
 Para verificar o resultado basta seguir os passos listados abaixo:
-- Baixar a pasta codes.
+- Realizar o download da pasta codes.
 - Abrir o terminal na pasta codes e executar os comandos
 - ipython
 - import wrapJustify as wJ
@@ -35,7 +35,7 @@ Na parte 1 foi solicitado listar as threads que estão bombando no Reddit no mom
 
 A solução do parte 1 do desafio 2 está implementada no módulo scrapReddit.py.
 Para verificar o resultado basta seguir os passos listados abaixo:
-- Baixar a pasta codes.
+- Realizar o download da pasta codes.
 - Abrir o terminal na pasta codes e executar os comandos abaixo
 - ipython
 - import scrapReddit as sReddit
