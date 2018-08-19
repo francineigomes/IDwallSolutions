@@ -53,7 +53,7 @@ Onde
 O comando print(get_document) imprime a lista de threads bombando para o Subreddit pesquisado.
 
 ## Parte 2
-
+[FALTA APENAS A EXPLICAÇÃO. O CÓDIGO JÁ FOI FINALIZADO]
 
 
 
