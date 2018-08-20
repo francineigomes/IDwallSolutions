@@ -19,7 +19,7 @@ def reddit_list(subreddit_name, min_ups = 5000, max_limit = 100):
     print(m*'=','\n')
     hot_python = subreddit.hot(limit = max_limit)
     for submission in hot_python:
-        if submission.ups > min_ups:
+        if submission.ups >= min_ups:
             s_A = 'upvotes:{} \nsubreddit_name:{} \nthread_title:{} \nthread_link:{} \ncomments_links:{}'.format(submission.ups,
                                                                       subreddit_name,
                                                                       submission.title,
