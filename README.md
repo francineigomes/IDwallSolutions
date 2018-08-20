@@ -33,7 +33,7 @@ Na parte 1 foi solicitado listar as threads que estão bombando no Reddit no mom
 - Para instalar o praw basta executar o comando (conda install -c conda-forge praw) no prompt do anaconda 
 - Foi necessário criar um [app](https://www.reddit.com/prefs/apps) no reddit
 
-A solução do parte 1 do desafio 2 está implementada no módulo scrapReddit.py.
+A solução da parte 1 do desafio 2 está implementada no módulo scrapReddit.py.
 Para verificar o resultado basta seguir os passos listados abaixo:
 - Realizar o download da pasta codes.
 - Abrir o terminal na pasta codes e executar os comandos abaixo
@@ -53,7 +53,24 @@ Onde
 O comando print(get_document) imprime a lista de threads bombando para o Subreddit pesquisado.
 
 ## Parte 2
-[FALTA APENAS A EXPLICAÇÃO. O CÓDIGO JÁ FOI FINALIZADO]
+Na parte 2 foi solicitado criar um robô que ao receber uma lista de subrredits, ele retornará a lista de threads que estão bombando em cada subrredits. Lembrando uma thread é considerada bombando se possuir mais de 5000 pontos.
+
+**Obs.**:
+- Para este desafio foi necessário criar uma conta no Telegram.
+- Depois de criada a conta é possível criar um bot, para isso é preciso: 1) logar na conta, 2) Procurar pelo usuário "BotFather". Ele é um bot que ajuda criar outros bots. Então basta escolher a opção de criar novo bot e seguir os passos indicados. Ao final será gerado um TOKEN. Esse TOKEN é utilizado no script "bot.py" pois ele indica o bot a ser controlado.
+- O nome do bot criado para esse desafio é: IDwallChallenge
+- O script "bot.py" controla o bot. Dentro desse script é chamada a função "reddit_list" implementada dentro do módulo desenvolvido para a solução da PARTE 1.
+- Foi necessário instalar o pacote [telepot](https://telepot.readthedocs.io/en/latest/). Para a sua instalação basta digitar: pip install telepot.
+
+A solução da parte 2 do desafio 2 está implementada no módulo bot.py.
+Para verificar o resultado basta seguir os passos listados abaixo:
+- Realizar o download da pasta codes.
+- Abrir o terminal na pasta codes e executar os comandos abaixo
+- ipython bot.py
+
+**Obs.**:
+- Conforme explicado anteriormente, a variável "max_limit" corresponde ao máximo de threads buscadas, para que desse conjunto seja verificada as que possuem 5000 ou mais pontos.
+
 
 
 
