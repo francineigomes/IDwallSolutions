@@ -35,8 +35,8 @@ Na parte 1 foi solicitado listar as threads que estão bombando no Reddit no mom
 
 A solução da parte 1 do desafio 2 está implementada no módulo scrapReddit.py.
 Para verificar o resultado basta seguir os passos listados abaixo:
-- Realizar o download da pasta codes.
-- Abrir o terminal na pasta codes e executar os comandos abaixo
+- Faça o download da pasta codes.
+- Abra o terminal na pasta codes e execute os comandos abaixo
 - ipython
 - import scrapReddit as sReddit
 - get_document = sReddit.reddit_list(subreddit_name, min_ups, max_limit)
@@ -53,23 +53,27 @@ Onde
 O comando print(get_document) imprime a lista de threads bombando para o Subreddit pesquisado.
 
 ## Parte 2
-Na parte 2 foi solicitado criar um robô que ao receber uma lista de subreddits, ele retornará a lista de threads que estão bombando em cada subreddits. Lembrando uma thread é considerada bombando se possuir mais de 5000 pontos.
+Na parte 2 foi solicitado criar um robô que ao receber uma lista de subreddits retorna a lista de threads que estão bombando em cada subreddits. Lembrando que uma thread é considerada bombando se possuir 5000  ou mais pontos.
 
 **Obs.**:
 - Para este desafio foi necessário criar uma conta no Telegram.
-- Depois de criada a conta é possível criar um bot, para isso é preciso: 1) logar na conta, 2) Procurar pelo usuário "BotFather". Ele é um bot que ajuda criar outros bots. Então basta escolher a opção de criar novo bot e seguir os passos indicados. Ao final será gerado um TOKEN. Esse TOKEN é utilizado no script "bot.py" pois ele indica o bot a ser controlado.
-- O nome do bot criado para esse desafio é: IDwallChallenge
-- O script "bot.py" controla o bot. Dentro desse script é chamada a função "reddit_list" implementada dentro do módulo desenvolvido para a solução da PARTE 1.
+- Depois de criada a conta é possível criar um bot. Para isso é preciso: 1) logar na conta, 2) Procurar pelo usuário "BotFather". Ele é um bot que ajuda criar outros bots. Então basta escolher a opção de criar novo bot e seguir os passos indicados. Ao final será gerado um TOKEN. Esse TOKEN é utilizado no script "bot.py" pois ele serve com uma autorização para controlar o bot criado.
+- O nome do bot criado para esse desafio é: "IDwallChallenge"
+- O script "bot.py" controla o bot. Dentro desse script é feito a chamada a função "reddit_list" implementada dentro do módulo desenvolvido para a solução da PARTE 1. Lembrando que esta função retorna uma lista de threads para o subreddit informado.
 - Foi necessário instalar o pacote [telepot](https://telepot.readthedocs.io/en/latest/). Para a sua instalação basta digitar: pip install telepot.
 
 A solução da parte 2 do desafio 2 está implementada no módulo bot.py.
 Para verificar o resultado basta seguir os passos listados abaixo:
-- Realizar o download da pasta codes.
-- Abrir o terminal na pasta codes e executar os comandos abaixo
+- Vá ao Telegram e procure pelo bot "IDwallChallenge"
+- Envie para o bot a lista de threads desejada, seguindo o formado indicado pelo desefio. Isso é necessário pois a implementação atual ainda não trata strings fora do padrão sugerido pelo desafio.
+- Faça o download da pasta codes.
+- Abra o terminal na pasta codes e execute o comando abaixo
 - ipython bot.py
 
+
 **Obs.**:
-- Conforme explicado anteriormente, a variável "max_limit" corresponde ao máximo de threads buscadas, para que desse conjunto seja verificada as que possuem 5000 ou mais pontos.
+- O bot só responde se já tiver recebido a mensagem !!!
+- Conforme explicado anteriormente, a variável "max_limit" corresponde ao máximo de threads buscadas, para que desse conjunto seja verificada as que possuem 5000 ou mais pontos. O valor default escolhido foi "max_limit=100"
 
 
 
