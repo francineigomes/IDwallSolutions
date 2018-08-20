@@ -44,7 +44,7 @@ Para verificar o resultado basta seguir os passos listados abaixo:
 Onde
 - subreddit_name: corresponde ao Subreddit a pesquisado
 - get_document: corresponde à lista de threads bombando no momento no subreddit_name
-- min_ups: correspondo ao mínimo de pontos para a thread se considerada "bombando"
+- min_ups: correspondo ao mínimo de pontos para a thread ser considerada "bombando"
 - max_limit: corresponde à profundidade da busca, pois na API "praw" é necessário informar quantas threads serão retornadas a cada busca
 
 **Obs.**:
