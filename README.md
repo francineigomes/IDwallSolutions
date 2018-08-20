@@ -73,7 +73,7 @@ Para verificar o resultado basta seguir os passos listados abaixo:
 
 **Obs.**:
 - O bot só responde se já tiver recebido a mensagem !!!
-- Conforme explicado anteriormente, a variável "max_limit" corresponde ao máximo de threads buscadas, para que desse conjunto seja verificada as que possuem 5000 ou mais pontos. O valor default escolhido foi "max_limit=100"
+- Conforme explicado anteriormente, a variável "max_limit" corresponde ao máximo de threads buscadas, para que desse conjunto seja verificada as que possuem 5000 ou mais pontos. O valor default escolhido foi "max_limit=100".
 
 
 
