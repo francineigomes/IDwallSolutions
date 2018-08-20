@@ -20,8 +20,8 @@ Onde
 - line_width: corresponde ao número de caracteres permitidos por linha
 
 A variável "saida" será uma tupla contendo os resultados solicitados pelo desafio 1.
-O comando print(saida[0]) imprime o texto com limite de número de caracteres por linha
-O comando print(saida[1]) imprime o texto com limite de número de caracteres por linha e com o texto justificado
+- O comando print(saida[0]) imprime o texto com limite de número de caracteres por linha
+- O comando print(saida[1]) imprime o texto com limite de número de caracteres por linha e com o texto justificado
 
 # Desafio 2: Crawlers
 
