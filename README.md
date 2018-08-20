@@ -53,7 +53,7 @@ Onde
 O comando print(get_document) imprime a lista de threads bombando para o Subreddit pesquisado.
 
 ## Parte 2
-Na parte 2 foi solicitado criar um robô que ao receber uma lista de subreddits, ele retornará a lista de threads que estão bombando em cada subrredits. Lembrando uma thread é considerada bombando se possuir mais de 5000 pontos.
+Na parte 2 foi solicitado criar um robô que ao receber uma lista de subreddits, ele retornará a lista de threads que estão bombando em cada subreddits. Lembrando uma thread é considerada bombando se possuir mais de 5000 pontos.
 
 **Obs.**:
 - Para este desafio foi necessário criar uma conta no Telegram.
