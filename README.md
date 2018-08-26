@@ -65,7 +65,7 @@ Na parte 2 foi solicitado criar um robô que ao receber uma lista de subreddits 
 A solução da parte 2 do desafio 2 está implementada no módulo bot.py.
 Para verificar o resultado basta seguir os passos listados abaixo:
 - Vá ao Telegram e procure pelo bot "IDwallChallenge"
-- Envie para o bot a lista de threads desejada, seguindo o formado indicado pelo desefio. Isso é necessário pois a implementação atual ainda não trata strings fora do padrão sugerido pelo desafio.
+- Envie para o bot a lista de threads desejadas, seguindo o formato indicado pelo desafio. Isso é necessário pois a implementação atual ainda não trata strings fora do padrão sugerido pelo desafio.
 - Faça o download da pasta codes.
 - Abra o terminal na pasta codes e execute o comando abaixo
 - ipython bot.py
